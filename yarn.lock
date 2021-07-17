@@ -1238,10 +1238,10 @@
     tslib "^2.0.1"
     write-file-atomic "^3.0.0"
 
-"@ionic/cli@6.12.4":
-  version "6.12.4"
-  resolved "https://registry.npmjs.org/@ionic/cli/-/cli-6.12.4.tgz"
-  integrity sha512-BPtOVTroqJlkC9doeQV6ahBl29x9x3uE3uJy5vwtTYiAbSi3RpMJyYxATZRkUBcaagRveBJNRmgx3RDau/oIZA==
+"@ionic/cli@6.16.3":
+  version "6.16.3"
+  resolved "https://registry.yarnpkg.com/@ionic/cli/-/cli-6.16.3.tgz#7aa6e11a1bc47b5aac7fe7c7ff774c1bf56e2436"
+  integrity sha512-4gune4s02oxft1RC+zXXexr2qT0CuPzRWpP3c3daabf3skZHAV+TfhE7aW26zV9XHS2Mw0YjHuKZHu1/UgMRqw==
   dependencies:
     "@ionic/cli-framework" "5.1.0"
     "@ionic/cli-framework-output" "2.2.2"
@@ -1270,32 +1270,33 @@
     tar "^6.0.1"
     tslib "^2.0.1"
 
-"@ionic/core@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.npmjs.org/@ionic/core/-/core-5.5.4.tgz"
-  integrity sha512-IjbGN8vh3XuJ2ulo3BMlMflcWlUhvEGEexr29JKFvb+O4bWKP5sC2fkqSrswrIstOmv7axm7CeIi2MNRkwYwVA==
+"@ionic/core@5.6.11":
+  version "5.6.11"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.6.11.tgz#4ec763b7f4a103902161432c661c330ed8c38ba8"
+  integrity sha512-bWn2K3L/QWRUs8SBm+YJcgJhOO6W00eipfxJunlAr/7PbMePdqYnU+PQ2Cv54ufK3yUtLr2b0YdvZ9wZ6pGS3w==
   dependencies:
-    ionicons "^5.1.2"
-    tslib "^1.10.0"
+    "@stencil/core" "^2.4.0"
+    ionicons "^5.5.1"
+    tslib "^2.1.0"
 
 "@ionic/react-hooks@0.0.8":
   version "0.0.8"
   resolved "https://registry.npmjs.org/@ionic/react-hooks/-/react-hooks-0.0.8.tgz"
   integrity sha512-0U9hoPByJxd4/Sdx/uad2sDYCgQmQdG0nt+UNEzkk6IF4TjNVAQPcFQ6nJIc2oiUAMjaxzoLKmG8ziamuyfZaQ==
 
-"@ionic/react-router@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.npmjs.org/@ionic/react-router/-/react-router-5.5.4.tgz"
-  integrity sha512-hmTs36nAFd6Ij9Ww9292SdHulnW2WpTlzlfAubfX17ZihAbfhobWOZc0qSLQZoSMygjPQ0ujQwNB+pST81aWGQ==
+"@ionic/react-router@5.6.11":
+  version "5.6.11"
+  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-5.6.11.tgz#9b57209f72f6e21e64166f4440cd524c66cb46d8"
+  integrity sha512-/2FcegTNm5hZcdDjpxgONzQ9XtwLbs3xbK4PU1IqLP8jaHx+/scIPxzwLQbK+isJlbC5726leSbdj/4Z9CFahA==
   dependencies:
     tslib "*"
 
-"@ionic/react@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.npmjs.org/@ionic/react/-/react-5.5.4.tgz"
-  integrity sha512-uKoEL6Zg2LfVh1A3Rz+zzWELihW4uB29Ci6Xr2X7KjyX+pI4w09OETAo+3Cf0tlExs+6Ad8XWposv2rLuW1RMw==
+"@ionic/react@5.6.11":
+  version "5.6.11"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-5.6.11.tgz#01efe06ef1a70f320edb6863139de43ffadb5384"
+  integrity sha512-NR/rOR0bhfGHUuDyGII+L3wW5BZ8gn7R6v3edW7/Ft/Xy1miYpCBs1KIT+gpTAR6XKLY3kr/A1f67T4/mNvIxQ==
   dependencies:
-    "@ionic/core" "5.5.4"
+    "@ionic/core" "5.6.11"
     ionicons "^5.1.2"
     tslib "*"
 
@@ -1650,6 +1651,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stencil/core@^2.4.0", "@stencil/core@^2.5.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.6.0.tgz#29da96d8b6fc83e689b9f297ef3e8b59b90a676a"
+  integrity sha512-QsxWayZyusnqSZrlCl81R71rA3KqFjVVQSH4E0rGN15F1GdQaFonKlHLyCOLKLig1zzC+DQkLLiUuocexuvdeQ==
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
   resolved "https://registry.npmjs.org/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-1.4.2.tgz"
@@ -1775,10 +1781,10 @@
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
-"@testing-library/jest-dom@5.11.9":
-  version "5.11.9"
-  resolved "https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.11.9.tgz"
-  integrity sha512-Mn2gnA9d1wStlAIT2NU8J15LNob0YFBVjs2aEQ3j8rsfRQo+lAs7/ui1i2TGaJjapLmuNPLTsrm+nPjmZDwpcQ==
+"@testing-library/jest-dom@5.14.1":
+  version "5.14.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.14.1.tgz#8501e16f1e55a55d675fe73eecee32cdaddb9766"
+  integrity sha512-dfB7HVIgTNCxH22M1+KU6viG5of2ldoA5ly8Ar8xkezKHKXjRvznCdbMbqjYGgO2xjRbwnR+rR8MLUIqF3kKbQ==
   dependencies:
     "@babel/runtime" "^7.9.2"
     "@types/testing-library__jest-dom" "^5.9.1"
@@ -1786,6 +1792,7 @@
     chalk "^3.0.0"
     css "^3.0.0"
     css.escape "^1.5.1"
+    dom-accessibility-api "^0.5.6"
     lodash "^4.17.15"
     redent "^3.0.0"
 
@@ -1797,10 +1804,10 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
 
-"@testing-library/user-event@13.0.6":
-  version "13.0.6"
-  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.0.6.tgz"
-  integrity sha512-61Rv1/9pr7rCilwnQ+uLdiaCBFSQp2GRmF2PHrX6gIy0mWqnR43p5pMJAdMA7PZ3JUN+8YyN5S2d1fq9DyYnYw==
+"@testing-library/user-event@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.2.0.tgz#8d63aaae1f5ec1d683d3afe57acd5f175f819f0f"
+  integrity sha512-wDEuKkkChNfA02Fpd9A39AXmdmxkvRcHyt/cK3WWiPAQTyMhcKFNM51aQgpEDJUcdj7uPsOaDEESoW/L1b2kZA==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -4401,6 +4408,11 @@ dom-accessibility-api@^0.5.4:
   resolved "https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.4.tgz"
   integrity sha512-TvrjBckDy2c6v6RLxPv5QXOnU+SmF9nBII5621Ve5fu6Z/BDrENurBEvlC1f44lKEUVqOpK4w9E5Idc5/EgkLQ==
 
+dom-accessibility-api@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
+  integrity sha512-DplGLZd8L1lN64jlT27N9TVSESFR5STaEJvX+thCby7fuCHonfPpAlodYc3vuUYbDuDec5w8AMP7oCM5TWFsqw==
+
 dom-converter@^0.2:
   version "0.2.0"
   resolved "https://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz"
@@ -6212,7 +6224,14 @@ internal-slot@^1.0.2:
     has "^1.0.3"
     side-channel "^1.0.4"
 
-ionicons@5.4.0, ionicons@^5.1.2:
+ionicons@5.5.2, ionicons@^5.5.1:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.5.2.tgz#1a92315b7cb1d1d5246a85fded50b75d9cb950ec"
+  integrity sha512-SHVBBtzNVQjY4jtcqKEHkqL5nIQwA/o2MIdU9JtMz8kQAB0NRVJFv5AxwmVbXXKDpxz57SiEjeLp8Uzt7jirpw==
+  dependencies:
+    "@stencil/core" "^2.5.0"
+
+ionicons@^5.1.2:
   version "5.4.0"
   resolved "https://registry.npmjs.org/ionicons/-/ionicons-5.4.0.tgz"
   integrity sha512-q8jG3vB87lXz3/OokEDoFsEQVUqdyHq3w2r5bp1OUwODus/njuc8MxjlBE7Z1RLkf6NbNaG+/kJTx3dsCJQwQQ==
@@ -11457,7 +11476,7 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@*, tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@*, tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -11466,6 +11485,11 @@ tslib@^2.0.1, tslib@^2.0.3:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
+
+tslib@^2.1.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
 tsutils@^3.17.1:
   version "3.20.0"
@@ -11560,10 +11584,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.1.3:
-  version "4.1.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.3.tgz"
-  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
+typescript@4.3.5:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
